@@ -1,0 +1,102 @@
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.base {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+}
+
+.box1 {
+    background-color: #63b1bc;
+}
+
+.box2 {
+    background-color: #1f2a44;
+}
+
+.box3 {
+    background-color: #ed145b;
+}
+
+.box4 {
+    background-color: #efb661;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+.base.container1{
+    display: flex;
+    align-items: center;
+}
+
+
+.base.container2{
+    display: flex;
+    align-items: center;
+}
+
+.base.container2 .box1{
+    margin-left: 80%;
+}
+
+.base.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.base.container4 {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.base.container5{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.base.container6{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15%;
+}
+
+.containerExercicioB{
+    background-color: #d0d3d4;
+    margin-bottom: 15px;
+}
+
+.containerExercicioB .flex-item.box4{
+    background-color: #efb661;
+}
+
+.containerExercicioB .flex-item.box3{
+    background-color: #ed145b;
+}
+
+.containerExercicioB .flex-item.box2{
+    background-color: #1f2a44;
+}
+
+.containerExercicioB .flex-item.box1{
+    background-color: #63b1bc;
+}
+
+.containerDesafio{
+    background-color: #d0d3d4;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: left;
+
+}
+
